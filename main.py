@@ -17,10 +17,6 @@ def page_about_me():
 def page_item(page_nr):
     return f"Вы просматриваете страницу {page_nr}"
 
-# Номера страниц
-# Номера товаров
-# фильтр по цене от и до
-# указывать авиабилеты откуда то кудато
 
 @app.route("/path/from/<loc_from>/to/<loc_to>/")
 def page_travel(loc_from, loc_to):
